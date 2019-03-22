@@ -2,6 +2,15 @@
   <img src="BookREPS.jpg">
 </p>
 
+
+** Created by: **
+
+- [Jugnu Misal] (https://github.com/jugnumisal) 
+- [Ami Pandat]
+- [Sambhav Jagnani]
+
+Year 2016-17
+
 # Introduction
 
 ### Problem Summary
