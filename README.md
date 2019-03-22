@@ -1,8 +1,8 @@
 <p align="center">
   <img src="BookREPS.jpg">
 </p>
+
 # Introduction
-============
 
 ### Problem Summary
 - A platform which allows people to sell/buy/donate/exchange books is lacking.
