@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="content_frame" type="id" />
+    <item name="btnChoosePath" type="id" />
+    <item name="btnTakePhoto" type="id" />
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    tools:context="com.example.karan.bookreps.BookRequest">
+
+    <ImageView
+        android:id="@+id/imgreqbk"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="77dp"
+        app:srcCompat="@drawable/appiconn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4420ff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:fontFamily="times new roman"
+        android:layout_marginTop="20dp"
+        android:text="Request for Book"
+        android:layout_below="@+id/imgreqbk"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edtbookname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/blurbutton"
+        android:hint="Book Name"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#4420ff"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/txtreq"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edtauthorname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/blurbutton"
+        android:hint="Author Name"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#4420ff"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/edtbookname"
+        android:layout_alignStart="@+id/edtbookname" />
+
+    <EditText
+        android:id="@+id/edtreqemail"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/blurbutton"
+        android:hint="Email Id"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#4420ff"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/edtauthorname"
+        android:layout_alignStart="@+id/edtauthorname" />
+
+    <Button
+        android:id="@+id/btnaddeq"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:fontFamily="times new roman"
+        android:textColor="#ffffff"
+        android:text="Add Request"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
+</RelativeLayout>

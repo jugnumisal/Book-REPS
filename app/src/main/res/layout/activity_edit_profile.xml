@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    tools:context="com.example.karan.bookreps.SignUpActivity">
+
+    <RelativeLayout
+        android:id="@+id/imagchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.karan.bookreps.RoundedImage
+            android:id="@+id/imguserep"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/uimg"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtnmep"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@drawable/registerblurbutton"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:fontFamily="Times New Roman"
+        android:layout_marginEnd="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/edtemailep"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@drawable/registerblurbutton"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Email_Id"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="Times New Roman"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/edtnmep"
+        android:layout_alignStart="@+id/edtnmep" />
+
+    <EditText
+        android:id="@+id/edtpep"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@drawable/registerblurbutton"
+        android:textColorHint="#FFFFFF"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="100dp"
+        android:layout_alignStart="@+id/edtemailep"
+        android:layout_below="@+id/edtemailep"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:fontFamily="Times New Roman"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtcntep"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@drawable/registerblurbutton"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:paddingLeft="100dp"
+        android:hint="Contact_no"
+        android:layout_alignEnd="@+id/edtpep"
+        android:layout_below="@+id/edtpep"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="Times New Roman"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="3500dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:fontFamily="Times New Roman"
+        android:layout_marginTop="21dp"
+        android:id="@+id/rdg"
+        android:layout_below="@+id/edtcntep"
+        android:layout_alignStart="@+id/edtcntep"
+        android:layout_marginStart="12dp"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/rdgfemalep"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registerblurbutton"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Female"
+            android:textColor="#ffffff"
+            android:fontFamily="Times New Roman"
+            android:textStyle="bold"
+            android:layout_weight="0.53" />
+
+        <RadioButton
+            android:id="@+id/rdgmalep"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registerblurbutton"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Male"
+            android:fontFamily="Times New Roman"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_weight="0.32" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="Times New Roman"
+        android:layout_marginEnd="18dp"
+        android:layout_alignBaseline="@+id/btnsave"
+        android:layout_alignBottom="@+id/btnsave"
+        android:layout_alignEnd="@+id/edtcntep" />
+
+    <ImageView
+        android:id="@+id/imgnmep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/edtimg"
+        android:layout_below="@+id/imagchange"
+        android:layout_alignStart="@+id/rdg"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imgemailep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/emailicon"
+        android:layout_above="@+id/edtpep"
+        android:layout_alignStart="@+id/imgnmep"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:id="@+id/imgpswdep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="9dp"
+        app:srcCompat="@drawable/pswd"
+        android:layout_above="@+id/edtcntep"
+        android:layout_alignStart="@+id/imgemailep" />
+
+    <ImageView
+        android:id="@+id/imgcntep"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/contact"
+        android:layout_above="@+id/rdg"
+        android:layout_alignStart="@+id/imgpswdep"
+        android:layout_marginBottom="9dp" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="Times New Roman"
+        android:layout_marginStart="9dp"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imgcntep"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>

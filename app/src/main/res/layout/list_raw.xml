@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/loginbg">
+
+
+
+    <ImageView
+        android:id="@+id/imgbuylist"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/appiconn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtisbnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgbuylist"
+        android:layout_marginStart="27dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="34dp"
+        android:text="ISBN" />
+
+    <TextView
+        android:id="@+id/txtisbn"
+        android:paddingLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:layout_above="@+id/txttitlec"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txttitlec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/txtisbnc"
+        android:layout_below="@+id/txtisbnc"
+        android:layout_marginTop="22dp"
+        android:text="Book Title" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/txtisbn"
+        android:text="TextView"
+        android:layout_alignTop="@+id/txttitlec" />
+
+    <TextView
+        android:id="@+id/txtauthorc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/txttitlec"
+        android:layout_below="@+id/txttitlec"
+        android:layout_marginTop="22dp"
+        android:text="Author" />
+
+    <TextView
+        android:id="@+id/txtauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:layout_above="@+id/txteditionc"
+        android:layout_alignTop="@+id/txtauthorc"
+        android:layout_alignStart="@+id/txttitle" />
+
+    <TextView
+        android:id="@+id/txteditionc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_alignStart="@+id/txtauthorc"
+        android:layout_below="@+id/txtauthorc"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="22dp"
+        android:text="Edition" />
+
+    <TextView
+        android:id="@+id/txtedition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/txtauthor"
+        android:layout_alignTop="@+id/txteditionc"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtcnditionc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/txteditionc"
+        android:layout_below="@+id/txteditionc"
+        android:layout_marginTop="22dp"
+        android:text="Condition" />
+
+    <TextView
+        android:id="@+id/txtcondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtedition"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/txtcnditionc"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtdescc"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="22dp"
+        android:text="Description"
+        android:layout_below="@+id/txtcnditionc"
+        android:layout_alignStart="@+id/txtcnditionc" />
+
+    <TextView
+        android:id="@+id/txtdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/txtdescc"
+        android:layout_alignEnd="@+id/txtcondition" />
+
+    <TextView
+        android:id="@+id/txtactualpricec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtdescc"
+        android:layout_below="@+id/txtdescc"
+        android:layout_marginTop="22dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Actual Price" />
+
+    <TextView
+        android:id="@+id/txtactualprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/txtactualpricec"
+        android:layout_alignStart="@+id/txtdesc"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtofferpricec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_alignStart="@+id/txtactualpricec"
+        android:layout_below="@+id/txtactualpricec"
+        android:layout_marginTop="22dp"
+        android:text="Offered price" />
+
+    <TextView
+        android:id="@+id/txtofferprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/txtofferpricec"
+        android:layout_alignEnd="@+id/txtactualprice"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtemailc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtofferpricec"
+        android:layout_below="@+id/txtofferprice"
+        android:layout_marginTop="22dp"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Email_id" />
+
+    <TextView
+        android:id="@+id/txtemaillist"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:autoLink="email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/txtemailc"
+        android:layout_alignBottom="@+id/txtemailc"
+        android:layout_alignStart="@+id/txtofferprice" />
+
+    <TextView
+        android:id="@+id/btnbuylist"
+        android:layout_width="250dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:text="To contact seller click on given
+                   email_id"
+        android:textSize="15dp"
+        android:fontFamily="Times new roman"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp" />
+        <!--android:textStyle="bold"-->
+        android:layout_below="@+id/txtemailc"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

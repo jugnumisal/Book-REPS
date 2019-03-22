@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/loginbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karan.bookreps.LoginActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:fontFamily="Times New Roman"
+        android:background="@drawable/blurbutton"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="120dp"
+        android:layout_marginTop="51dp"
+        android:id="@+id/edtemaillog"
+        android:hint="Email"
+        android:layout_below="@+id/imglogo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Login"
+        android:fontFamily="Times New Roman"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/edtpasslog"
+        android:layout_alignStart="@+id/edtpasslog" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:paddingLeft="100dp"
+        android:fontFamily="Times New Roman"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:id="@+id/edtpasslog"
+        android:background="@drawable/blurbutton"
+        android:hint="Password"
+        android:layout_below="@+id/edtemaillog"
+        android:layout_alignLeft="@+id/edtemaillog"
+        android:layout_alignStart="@+id/edtemaillog" />
+
+    <TextView
+        android:text="New to Book Reps?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="Times New Roman"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/txt1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnlogin"
+        android:layout_alignLeft="@+id/btnlogin"
+        android:layout_alignStart="@+id/btnlogin" />
+
+    <TextView
+        android:id="@+id/txtreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt1"
+
+        android:layout_toEndOf="@+id/txt1"
+        android:layout_toRightOf="@+id/txt1"
+        android:fontFamily="Times New Roman"
+        android:textColor="#0E0761"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Register." />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/emailicon"
+        android:layout_marginBottom="6dp"
+        android:layout_above="@+id/edtpasslog"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/pswd"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtemaillog"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txtfrgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="ForgotPassword?"
+        android:fontFamily="Times New Roman"
+        android:textColor="#0E0761"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/edtpasslog"
+        android:layout_alignEnd="@+id/btnlogin" />
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/appiconn"
+        android:layout_marginEnd="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/txtreg" />
+
+
+</RelativeLayout>

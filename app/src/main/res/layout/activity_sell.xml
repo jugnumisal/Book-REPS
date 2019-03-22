@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/loginbg">
+
+
+        <com.example.karan.bookreps.RoundedImage
+            android:id="@+id/imgbk"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/sellbook"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btnpost" />
+
+        <EditText
+            android:id="@+id/edtISBN"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/imgbk"
+            android:layout_height="55dp"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="ISBN"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Book Title*"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/edtISBN"
+            android:layout_alignStart="@+id/edtISBN" />
+
+        <EditText
+            android:id="@+id/edtauthor"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/edttitle"
+            android:layout_below="@+id/edttitle"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Author*"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtedition"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/edtauthor"
+            android:layout_below="@+id/edtauthor"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Book Edition"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtcondn"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/edtedition"
+            android:layout_below="@+id/edtedition"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Book Condition*"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/edtpublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Description"
+            android:layout_alignStart="@+id/edtcondn"
+            android:layout_below="@+id/edtcondn"
+            android:ems="10"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/edtop"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignStart="@+id/edtpublisher"
+            android:layout_below="@+id/edtpublisher"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Original Price*"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtYo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Your Offer*"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_below="@+id/edtop"
+            android:layout_alignStart="@+id/edtphone" />
+
+        <EditText
+            android:id="@+id/edtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blurbutton"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:hint="Phone Number*"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/edtYo"
+            android:layout_alignStart="@+id/edtop" />
+
+        <Button
+            android:id="@+id/btnpost"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/button"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="Times New Roman"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:text="Post"
+            android:layout_below="@+id/edtphone"
+            android:layout_centerHorizontal="true" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

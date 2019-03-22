@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    tools:context="com.example.karan.bookreps.ContactUs">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="367dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="110dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/txtcontitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/contitle"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_marginStart="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="341dp"
+        android:layout_height="81dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/appiconn"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="379dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="-1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="211dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="61dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Email :"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="228dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:autoLink="email"
+            android:text="@string/email"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="228dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView3" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Call"
+        android:layout_alignTop="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+
+</RelativeLayout>

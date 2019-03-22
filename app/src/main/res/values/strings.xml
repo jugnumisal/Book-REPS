@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BOOK Reps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_firstname" />
+    <string name="error_email" />
+    <string name="error_mobile" />
+    <string name="error_password" />
+    <string name="error_uname" />
+
+    <!--<string name="app_name">image adapter to listview</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="add_image">Add Image</string>
+    <string name="title_activity_display_image">DisplayImage</string>
+    <string name="image_information">Image Information</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="abttitle"><b>About Us</b></string>
+
+    <string name="contitle"><b>Contact Us</b></string>
+    <string name="email"><u>helpdesk.bookreps@gmail.com</u></string>
+
+</resources>

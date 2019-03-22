@@ -20,7 +20,7 @@ This application has a user-friendly user-interface that is suitable for all. An
 ### Aim & Objective
 - Second hand books were not easily available at bookstore with fair price.
 - Fair price of old books for buyers and sellers.
-- Remove the bookstores as an intermediate phase and make direct contact between ➢ the buyers and sellers.
+- Remove the bookstores as an intermediate phase and make direct contact between: the buyers and sellers.
 - Ease the way of buying and selling books.
 - Easy way to donate the books.
 
