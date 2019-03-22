@@ -5,7 +5,7 @@
 
 ** Created by: **
 
-- [Jugnu Misal] (https://github.com/jugnumisal) 
+- [Jugnu Misal](https://github.com/jugnumisal)
 - [Ami Pandat]
 - [Sambhav Jagnani]
 
