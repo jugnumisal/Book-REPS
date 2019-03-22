@@ -1,6 +1,6 @@
-<img align="center">
-  <img width="460" height="300" src="BookREPS.jpg">
-
+<p align="center">
+  <img src="BookREPS.jpg">
+</p>
 # Introduction
 Team ID : 75043 Introduction
 1.1 Problem Summary
