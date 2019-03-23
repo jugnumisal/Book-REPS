@@ -2,7 +2,7 @@
   <img src="BookREPS.jpg">
 </p>
 
-
+<div style="text-align: justify">
 **Created by:**
 
 - [Jugnu Misal](https://github.com/jugnumisal)
@@ -15,8 +15,7 @@ as a group project for the **Year 2016-17**
 
 ### Problem Summary
 - A platform which allows people to sell/buy/donate/exchange books is lacking.
-- A platform through which buyers and sellers are directly connected without the need for a mediator,
-like bookstores.
+- A platform through which buyers and sellers are directly connected without the need for a mediator, like bookstores.
 - A platform through which buyers and sellers can get a good deal for old books in particular is lacking.
 
 ### Introduction to System:
@@ -39,5 +38,5 @@ This application has a user-friendly user-interface that is suitable for all. An
 - Mediators charge a certain amount in buying and selling old books. That amount can in the pockets of the buyers and sellers.
 - A large number of buyers and seller can be connected through this platform without going to each and every bookstore and looking for the book.
 - Interested buyers can contact the seller directly.
-- Direct contact between the users (Buyers/Sellers) will save the time and other resources and thereby
-making the books exchange process easy.
+- Direct contact between the users (Buyers/Sellers) will save the time and other resources and thereby making the books exchange process easy.
+</div>
