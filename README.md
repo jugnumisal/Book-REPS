@@ -3,13 +3,14 @@
 </p>
 
 <div style="text-align: justify">
+
 **Created by:**
 
 - [Jugnu Misal](https://github.com/jugnumisal)
 - [Ami Pandat]
 - [Sambhav Jagnani]
 
-as a group project for the **Year 2016-17**
+as a group project for the Bachelor of Computer Engineering in the  **Year 2016-17**
 
 # Introduction
 
