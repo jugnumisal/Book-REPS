@@ -7,7 +7,7 @@
 **Created by:**
 
 - [Jugnu Misal](https://github.com/jugnumisal)
-- [Ami Pandat]
+- [Ami Pandat] (https://github.com/AmiPandat)
 - [Sambhav Jagnani]
 
 as a group project for the Bachelor of Computer Engineering in the  **Year 2016-17**
