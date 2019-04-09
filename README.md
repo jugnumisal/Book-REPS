@@ -41,24 +41,22 @@ This application has a user-friendly user-interface that is suitable for all. An
 - Interested buyers can contact the seller directly.
 - Direct contact between the users (Buyers/Sellers) will save the time and other resources and thereby making the books exchange process easy.
 
-### Screenshots
-
-                           |  
-:-------------------------:|:-------------------------:
+### Screenshots 
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture1.png">  |  <img src="/Screenshots/Picture2.png"> 
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture3.png">  |  <img src="/Screenshots/Picture4.png"> 
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture5.png">  |  <img src="/Screenshots/Picture6.png"> 
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture7.png">  |  <img src="/Screenshots/Picture8.png"> 
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture9.png">  |  <img src="/Screenshots/Picture10.png">
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture11.png">  |  <img src="/Screenshots/Picture12.png"> 
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <img src="/Screenshots/Picture13.png">  |  <img src="/Screenshots/Picture14.png">
-:-------------------------:|:-------------------------:
+:-------------------------------------:|:-------------------------------------:
 <p align="center">
   <img src="/Screenshots/Picture15.png">
 </p>
