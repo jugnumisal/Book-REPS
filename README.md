@@ -41,7 +41,7 @@ This application has a user-friendly user-interface that is suitable for all. An
 - Interested buyers can contact the seller directly.
 - Direct contact between the users (Buyers/Sellers) will save the time and other resources and thereby making the books exchange process easy.
 
-### Screenshots 
+# Screenshots 
 
 <img src="/Screenshots/Picture1.png">  |  <img src="/Screenshots/Picture2.png"> 
 <img src="/Screenshots/Picture3.png">  |  <img src="/Screenshots/Picture4.png"> 
